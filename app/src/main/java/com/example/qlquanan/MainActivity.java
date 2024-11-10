@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         String test="thu nha";
         String test1="thu nhaaa";
         String test2 = "được chua";
+        String test3 = "thử lan thu 3";
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
