@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         String test="thu nha";
         String test1="thu nhaaa";
-        String test2 = "được chua";
+        String test2 = "alo alo";
         String test3 = "thử lan thu 3 mong là ổn";
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
